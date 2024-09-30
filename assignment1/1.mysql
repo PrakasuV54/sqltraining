@@ -1,0 +1,2 @@
+select sum(revenue) as total_revenue from sales 
+where revenue>1000 and sale_year='2023';
